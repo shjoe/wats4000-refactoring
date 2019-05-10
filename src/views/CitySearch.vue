@@ -4,7 +4,7 @@
     <form v-on:submit.prevent="getCities">
       <p>
         Enter city name:
-        <input type="text" v-model="query" placeholder="Paris">
+        <input type="text" v-model="query" placeholder="Type a name of a city">
         <button type="submit">Go</button>
       </p>
     </form>
